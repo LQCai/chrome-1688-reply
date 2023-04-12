@@ -1,0 +1,26 @@
+{
+  "name": "1688自动回复",
+  "description": "1688自动回复插件",
+  "version": "0.1",
+  "manifest_version": 3,
+  "icons": {
+    "128": "img/index.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://air.1688.com/*"
+      ],
+      "css": [
+        "index.css"
+      ],
+      "js": [
+        "js/jquery.min.js",
+        "content.js",
+        "js/index.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab", "scripting"]
+}

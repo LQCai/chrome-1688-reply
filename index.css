@@ -1,0 +1,28 @@
+#cj_move_page{
+    width: 300px; 
+    user-select: none; 
+    background: white; 
+    border: 1px solid; 
+    height: 300px; 
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    z-index: 1000001;
+}
+#cj_move_h3{
+    text-align: center; 
+    line-height: 40px; 
+    cursor: move;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.form-item>span {
+    vertical-align: top;
+}
+
+.form-item-compent {
+    width: 150px;
+}
