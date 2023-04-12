@@ -25,7 +25,6 @@ function loadPage() {
                     // 修改输入表单
                     const edit = document.querySelector("#ice-container > div > div > div.ww_container > div.ww_body > div.ww_box > div.ww_input > div > div > div > div.biz-expression-editor.text-area > div.editBox > pre")
                     edit.innerHTML = text
-                    edit.addEventListener('input', console.log, false)
                     const event = new UIEvent('input')
                     edit.dispatchEvent(event)
                     // 点击发送
